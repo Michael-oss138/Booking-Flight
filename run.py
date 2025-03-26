@@ -1,4 +1,4 @@
-"""Application entry point"""
+""""Application entry point""""
 
 import os
 
@@ -9,3 +9,5 @@ app = create_app(config_name)
 
 if __name__ == '__main__':
     app.run(threaded=True)
+
+
