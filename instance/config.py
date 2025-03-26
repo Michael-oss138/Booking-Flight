@@ -7,6 +7,7 @@
 import os
 
 
+
 class Config(object):
     TESTING = False
     SECRET_KEY = os.getenv('SECRET')
