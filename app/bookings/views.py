@@ -71,3 +71,5 @@ class BookingManipulation(MethodView):
 booking.add_url_rule('/booking/<int:flight_id>',
                      view_func=BookingManipulation.as_view('booking'),
                      methods=['GET', 'POST'])
+
+lss
