@@ -11,6 +11,7 @@ from app import create_app, db
 from manage import create_admin
 
 
+
 class BaseTestCase(unittest.TestCase):
     """Base Test Case"""
     def setUp(self):
