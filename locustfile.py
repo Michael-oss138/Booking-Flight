@@ -1,6 +1,7 @@
 import os
 import json
 
+
 from locust import TaskSet, task, HttpLocust, seq_task
 
 
