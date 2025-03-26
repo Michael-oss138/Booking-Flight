@@ -5,6 +5,7 @@ import json
 from tests.base_test import BaseTestCase
 
 
+
 class TestAirportManipulation(BaseTestCase):
     """Test for Airport manipulation endpoint"""
     def test_admin_airport_addition(self):
