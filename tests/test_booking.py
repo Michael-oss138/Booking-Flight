@@ -7,6 +7,7 @@ from datetime import datetime
 from tests.base_test import BaseTestCase
 
 
+
 class TestBookingManipulation(BaseTestCase):
     """Test for Booking manipulation endpoint"""
     def crate_flight(self):
