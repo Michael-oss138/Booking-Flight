@@ -13,6 +13,7 @@ class TestDevelopmentConfig(unittest.TestCase):
 
 class TestTestingConfig(unittest.TestCase):
 
+    
     def test_app_is_testing(self):
         self.app = create_app(config_name="testing")
         self.assertTrue(self.app.config['DEBUG'] is True)
