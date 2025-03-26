@@ -13,6 +13,7 @@ from app.bookings.models import Booking
 from app.flights.models import Airport, Airplane, Flight
 
 
+
 app = create_app(os.getenv('FLASK_ENV'))
 migrate = Migrate(app, db)
 manager = Manager(app)
