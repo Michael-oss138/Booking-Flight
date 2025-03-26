@@ -13,6 +13,7 @@ class TestRegisterUser(BaseTestCase):
         return self.client.post('/api/register', headers=self.header,
                                 data=json.dumps(self.reg_data))
 
+    
     def test_registration(self):
         """Test user registration works correcty"""
         res = self.register()
