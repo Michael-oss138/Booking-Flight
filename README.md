@@ -23,6 +23,7 @@ A flight booking flask API that provides users with ability to:
     - Change Status of flights
     - Get a list of flight bookings in a given day
 
+
 ### Prerequisites
 - Python 3.6 or a later version
 - Flask
